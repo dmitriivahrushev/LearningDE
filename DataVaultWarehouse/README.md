@@ -1,16 +1,16 @@
 # AnalyticalDatabases
-![avtar](/images/dv_model.jpg)
+![avtar](./images/dv_model.jpg)
 ## О проекте
 Проект включает в себя разработку схемы хранения данных в СУБД Vertica в соответствии с методологией Data Vault, а также реализацию и настройку ETL-процесса для автоматизированной загрузки данных из S3 с последующим распределением по соответствующим слоям данных средствами оркестрации Apache Airflow.
 
 ## 🗺️ Entity-Relationship Diagram
-![erd1](/images/first_schema.png)
-![erd2](/images/last_schema.png)
+![erd1](./images/first_schema.png)
+![erd2](./images/last_schema.png)
 
 ## 📈 Graph
-![dags](/images/dags.png)
-![s3](/images/load_s3.png)
-![dwh](/images/insert_dwh.png)
+![dags](./images/dags.png)
+![s3](./images/load_s3.png)
+![dwh](./images/insert_dwh.png)
 ## 📁 Структура проекта
 ~~~
 .
