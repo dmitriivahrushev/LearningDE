@@ -1,0 +1,40 @@
+{
+    "postgres_conn": {
+        "database": "db1",
+        "host": "rc1b-w5d285tmxa8jimyn.mdb.yandexcloud.net",
+        "port": 6432,
+        "username": "student",
+        "password": "de_student_112022",
+        "batch_size": 10000,
+        "pg_table_transactions": {
+            "schema_name": "public",
+            "table_name": "transactions",
+            "dt_load_column": "transaction_dt",
+            "pk_column": "operation_id"
+        },
+        "pg_table_currencies": {
+            "schema_name": "public",
+            "table_name": "currencies",
+            "dt_load_column": "date_update"
+        }
+    },
+    "vertica_conn": {
+        "database": "dwh",
+        "host": "vertica.data-engineer.education-services.ru",
+        "port": 5433,
+        "username": "vt2511048ace98",
+        "password": "c2cadabcb78341fbb5080ae928434d36",
+        "vertica_table_transactions": {
+            "schema_name": "VT2511048ACE98__STAGING",
+            "table_name": "transactions"
+        },
+        "vertica_table_currencies": {
+            "schema_name": "VT2511048ACE98__STAGING",
+            "table_name": "currencies"
+        },
+        "vertica_table_global_metrics": {
+            "schema_name": "VT2511048ACE98__DWH",
+            "table_name": "global_metrics"
+        }
+    }
+}
