@@ -1,5 +1,5 @@
 # EtlAirflowProject
-![etl_image](/images/etl_image.jpg)
+![etl_image](./images/etl_image.jpg)
 
 #### 🧾 О проекте  
 В данном проекте выполняется доработка пайплайна.
@@ -26,11 +26,11 @@
 ```
 
 #### 📈 Graph
-![graph](/images/dags.png)
-![view](/images/dag_view.png)
+![graph](./images/dags.png)
+![view](./images/dag_view.png)
 
 #### 🗺️ Entity-Relationship Diagram
-![mart](/images/mart.png)
+![mart](./images/mart.png)
 
 #### Доработки пайплайна  
 ✅ Учтены статусы shipped и refunded.
