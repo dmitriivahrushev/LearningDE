@@ -1,0 +1,6 @@
+{   
+    "spark_session": {
+        "master": "local[*]"
+    },
+    "load_date": "2022-06-14"
+}
