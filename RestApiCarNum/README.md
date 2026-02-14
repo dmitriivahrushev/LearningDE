@@ -1,5 +1,5 @@
 # RestApiCarNum
-![avatar](/img/api_avatar.jpg)
+![avatar](./img/api_avatar.jpg)
 Описание задачи проекта:
 Есть модель разработанная ML специалистом. 
 Ее необходимо превратить в веб-сервис, 
@@ -69,5 +69,5 @@ python test.py
 Number of users: 800  
 Spawn rate: 200  
 Запускаем тест и получаем графики производительности RPS.
-![RPS](/img/locust_test.png)
+![RPS](./img/locust_test.png)
 
