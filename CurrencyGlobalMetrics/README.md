@@ -1,5 +1,5 @@
 ## CurrencyGlobalMetrics
-![avatar](/dags/transactional_activity/img/avatar.jpg)
+![avatar](./dags/transactional_activity/img/avatar.jpg)
 
 ---
 #### О проекте:  
@@ -92,7 +92,7 @@ currencies — справочник с данными об обновления�
 docker-compose up -d
 ```
 Airflow доступен по адресу http://localhost:8080  
-![airflow_main_page](/dags/transactional_activity/img/airflow_main_page.png)
-![airflow_graph](/dags/transactional_activity/img/airflow_graph.png)
+![airflow_main_page](./dags/transactional_activity/img/airflow_main_page.png)
+![airflow_graph](./dags/transactional_activity/img/airflow_graph.png)
 
 Если перевести DAG в рабочий режим, он будет автоматически запускаться каждый день в 01:00. В рамках этого запуска DAG выбирает данные за предыдущий день и формирует витрину GlobalMetrics.
