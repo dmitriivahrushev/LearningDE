@@ -1,5 +1,5 @@
 # YandexCloudTechnologies
-![avatar](/image/services.png)
+![avatar](./image/services.png)
 
 ---
 Цель проекта:
