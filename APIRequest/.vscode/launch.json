@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+        {
+            "name": "Python: Test",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-k",                 // Включаем режим фильтрации тестов
+                "test_init[kwargs0]",   // Имя теста (без полного пути к файлу)
+                "${workspaceFolder}"  // Рабочая директория (корневая папка проекта) -> workspaceFolder Оставляем без изменений
+            ],
+            "justMyCode": false
+        }
+    ]
+}
